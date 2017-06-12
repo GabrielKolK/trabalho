@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+p{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1,h2,h3,h4,h5 {
+  font-family: 'Crimson Text', serif;
+  font-size: 2em;
+}
+h3{
+  font-size: 1.5em;
+}
+h6{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.8em;
+}
+#top-bar{
+  width: 100%
+}
+#capa{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+#cardimgpad{
+  padding: 5% 29% 4% 33%;
+}
+#imgacad{
+  width: 100%;
+  padding-bottom: 3%;
+}
+#endereco{
+  text-align: center;
+}
+.menu-text{
+  font-size: 0.7em;
+  padding-top: 0.5%;
+  position: absolute;
+}
+
+.btn-menu{
+  color: #333;
+  cursor: pointer;
+  float: right;
+  padding-right: 2%;
+}
+.menuresponsivo{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 0;
+  padding: 0;
+  display: none;
+}
+.btn-close{
+  float: right;
+  cursor: pointer;
+
+}
+.menuresponsivo ul{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.menuresponsivo li{
+  padding: 1.5%;
+  list-style: none;
+  text-align: center;
+}
+.menuresponsivo li a{
+  font-size: 2em;
+  color: #333;
+  padding: 1.5% 3%;
+}
+.menuresponsivo li a:hover{
+  color: #fff;
+}
+
+.card{
+  margin: 10%;
+}
+.card-divider{
+  text-align: center;
+  padding-top: 5%;
+}
+.info{
+  padding-top: 5%;
+}
+.title{
+  padding-top: 5%;
+  text-align: center;
+}
+.container,
+.musc,
+.footer,
+.allrights,
+.card-divider{
+  background-color: #333;
+  color: #fff;
+}
+.localizacao{
+  padding-bottom: 7%;
+}
+.enderecos{
+  line-height: 300%;
+  padding-top: 10%;
+}
+.enderecos li{
+  list-style: none;
+}
+.allrights{
+  padding-top: 3%;
+  text-align: center;
+  padding-bottom: 2%;
+}
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+.fa-times{
+  color: #333;
+}
+
+#top-btn {
+    position: fixed;
+    border: 1px solid #8e8e8e;
+    border-radius: 3px;
+    bottom: 30px;
+    height: 50px;
+    right: 10px;
+    text-align: center;
+    width: 50px;
+}
+
+
+@media (min-width: 640px){
+  .btn-menu{
+    display: none;
+  }
+  .btn-close{
+    display: none;
+
+  }
+  .menuresponsivo{
+    padding-top: 2%;
+    width: auto;
+    height: auto;
+    display: block;
+    position: static;
+  }
+  .menuresponsivo li{
+    padding: 0;
+    float: left;
+  }
+  .menuresponsivo li a{
+    color: #333;
+    font-size: 1em;
+    padding: 15px;
+  }
+  .menuresponsivo li a:hover{
+    color: #fff;
+    border: none;
+  }
+}
+.imagem-centralizada{
+  padding-left: 10%;
+  padding-right: 10%;
+}
